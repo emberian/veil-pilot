@@ -1,0 +1,36 @@
+ℹ [1276/1276] Built VeilPilot.CounterWord (17s)
+info: VeilPilot/CounterWord.lean:83:0: ❌ Violation: safety_failure (violates: read_is_old_or_new)
+  State 0 (via init):
+    word = 0
+    done = 0
+    target = 0
+    busy = false
+  State 1 (via startInc):
+    word = 0
+    done = 0
+    target = 1
+    busy = true
+  State 2 (via flip):
+    choices: i = 0
+    word = 1
+    done = 1
+    target = 1
+    busy = false
+  State 3 (via startInc):
+    word = 1
+    done = 1
+    target = 2
+    busy = true
+  State 4 (via flip):
+    choices: i = 0
+    word = 0
+    done = 1
+    target = 2
+    busy = true
+  State 5 (via crash):
+    word = 0
+    done = 1
+    target = 2
+    busy = false
+info: VeilPilot/CounterWord.lean:85:0: ✅ No violation (explored 19 states)
+Build completed successfully (1276 jobs).

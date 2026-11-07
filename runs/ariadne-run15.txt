@@ -1,0 +1,2131 @@
+ℹ [1276/1276] Built VeilPilot.ChokepointAriadne (595s)
+info: VeilPilot/ChokepointAriadne.lean:299:0: Initialization must establish the invariant:
+  doesNotThrow ... ✅
+  non_omission ... ✅
+  non_omission_variants ... ✅
+  no_brick ... ✅
+  ahead_by_one ... ✅
+  none_ahead ... ✅
+  fresh_has_log ... ✅
+  commit_fresh ... ✅
+  commit_ahead ... ✅
+  rec2_ahead ... ✅
+  fwd_stamp ... ✅
+  fwd_in_later ... ✅
+  fwd_in_ram ... ✅
+  disk_fresh ... ✅
+  disk_next ... ✅
+  disk_used ... ✅
+  boot_clean ... ✅
+  queued_logged ... ✅
+  down_empty ... ✅
+  inflight_commit ... ✅
+  rec_no_queue ... ✅
+The following set of actions must preserve the invariant and successfully terminate:
+  purge
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  failStop
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  commitInc
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ❌
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  rec1Store
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  rec1Inc
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ❌
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  crash
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  restore
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  rec2Store
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  rec2Inc
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ❌
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  advInc
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  hostForward
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  restoreMissing
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  arrive
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  restoreAdv
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+  idle
+    doesNotThrow ... ✅
+    non_omission ... ✅
+    non_omission_variants ... ✅
+    no_brick ... ✅
+    ahead_by_one ... ✅
+    none_ahead ... ✅
+    fresh_has_log ... ✅
+    commit_fresh ... ✅
+    commit_ahead ... ✅
+    rec2_ahead ... ✅
+    fwd_stamp ... ✅
+    fwd_in_later ... ✅
+    fwd_in_ram ... ✅
+    disk_fresh ... ✅
+    disk_next ... ✅
+    disk_used ... ✅
+    boot_clean ... ✅
+    queued_logged ... ✅
+    down_empty ... ✅
+    inflight_commit ... ✅
+    rec_no_queue ... ✅
+info: VeilPilot/ChokepointAriadne.lean:292:0: Failed to build counterexample; exception: Application type mismatch: The argument
+  ChokepointAriadne.mode_IndT
+has type
+  Type
+of sort `Type 1` but is expected to have type
+  Bool
+of sort `Type` in the application
+  ChokepointAriadne.Instantiation.mk (Fin 1) (Fin 1) ChokepointAriadne.mode_IndT
+info: VeilPilot/ChokepointAriadne.lean:292:0: Failed to build counterexample; exception: Application type mismatch: The argument
+  ChokepointAriadne.mode_IndT
+has type
+  Type
+of sort `Type 1` but is expected to have type
+  Bool
+of sort `Type` in the application
+  ChokepointAriadne.Instantiation.mk (Fin 1) (Fin 1) ChokepointAriadne.mode_IndT
+info: VeilPilot/ChokepointAriadne.lean:292:0: Failed to build counterexample; exception: Application type mismatch: The argument
+  ChokepointAriadne.mode_IndT
+has type
+  Type
+of sort `Type 1` but is expected to have type
+  Bool
+of sort `Type` in the application
+  ChokepointAriadne.Instantiation.mk (Fin 1) (Fin 1) ChokepointAriadne.mode_IndT
+info: VeilPilot/ChokepointAriadne.lean:292:0: Failed to build counterexample; exception: Application type mismatch: The argument
+  ChokepointAriadne.mode_IndT
+has type
+  Type
+of sort `Type 1` but is expected to have type
+  Bool
+of sort `Type` in the application
+  ChokepointAriadne.Instantiation.mk (Fin 1) (Fin 1) ChokepointAriadne.mode_IndT
+info: VeilPilot/ChokepointAriadne.lean:292:0: Failed to build counterexample; exception: Application type mismatch: The argument
+  ChokepointAriadne.mode_IndT
+has type
+  Type
+of sort `Type 1` but is expected to have type
+  Bool
+of sort `Type` in the application
+  ChokepointAriadne.Instantiation.mk (Fin 1) (Fin 1) ChokepointAriadne.mode_IndT
+info: VeilPilot/ChokepointAriadne.lean:292:0: Failed to build counterexample; exception: Application type mismatch: The argument
+  ChokepointAriadne.mode_IndT
+has type
+  Type
+of sort `Type 1` but is expected to have type
+  Bool
+of sort `Type` in the application
+  ChokepointAriadne.Instantiation.mk (Fin 1) (Fin 1) ChokepointAriadne.mode_IndT
+info: VeilPilot/ChokepointAriadne.lean:305:0: ✅ No violation (explored 1874 states)
+info: VeilPilot/ChokepointAriadne.lean:309:0: ✅ No violation (explored 2684 states)
+info: VeilPilot/ChokepointAriadne.lean:313:0: ✅ No violation (explored 14318 states)
+info: VeilPilot/ChokepointAriadne.lean:315:0: ✅ No liveness violation (checked 1 properties, explored 6678 product states)
+info: VeilPilot/ChokepointAriadne.lean:317:0: ✅ No liveness violation (checked 1 properties, explored 23558 product states)
+info: VeilPilot/ChokepointAriadne.lean:319:0: ❌ Violation: liveness_failure (violates: ctrl_no_fairness)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 7:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 8:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 9:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 10:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 11:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 12:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 13:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+  Loop (repeats):
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = rec1store
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+info: VeilPilot/ChokepointAriadne.lean:321:0: ❌ Violation: liveness_failure (violates: ctrl_same_antecedent)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {0}
+      fwdAt = {0 ↦ 2, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {}
+      used = {0, 1, 2}
+    State 7:
+      forwarded = {0}
+      fwdAt = {0 ↦ 2, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {}
+      used = {0, 1, 2}
+  Loop (repeats):
+    State 0:
+      forwarded = {0}
+      fwdAt = {0 ↦ 2, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {}
+      used = {0, 1, 2}
+info: VeilPilot/ChokepointAriadne.lean:323:0: ❌ Violation: liveness_failure (violates: ctrl_c1)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 7:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 8:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 9:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 10:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 11:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 12:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 13:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 14:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = rec1store
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 15:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = rec1store
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+  Loop (repeats):
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = rec1store
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+info: VeilPilot/ChokepointAriadne.lean:325:0: ❌ Violation: liveness_failure (violates: ctrl_c2)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 7:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 8:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 9:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 10:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 11:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 12:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+  Loop (repeats):
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+info: VeilPilot/ChokepointAriadne.lean:327:0: ❌ Violation: liveness_failure (violates: ctrl_c3)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 7:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 8:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 9:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 10:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 11:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 12:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+  Loop (repeats):
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+info: VeilPilot/ChokepointAriadne.lean:329:0: ❌ Violation: liveness_failure (violates: ctrl_c4)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 7:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 8:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 9:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 10:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 11:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 12:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 13:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+  Loop (repeats):
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = rec1store
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+info: VeilPilot/ChokepointAriadne.lean:331:0: ❌ Violation: liveness_failure (violates: ctrl_crashes_forever)
+  Stem:
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {}
+      pc = boot
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {}
+      log = {}
+      onDisk = {0}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {}
+      queued = {}
+      used = {0}
+    State 2:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 0
+      inflight = {0}
+      log = {}
+      onDisk = {0, 1}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {}
+      used = {0, 1}
+    State 3:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0]}
+      queued = {0}
+      used = {0, 1}
+    State 4:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 1
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 5:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0]}
+      queued = {0}
+      used = {0, 1, 2}
+    State 6:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 2
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 7:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 0, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3}
+    State 8:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 3
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 9:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 0, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4}
+    State 10:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 4
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 11:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5}
+      pc = run
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 0}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5}
+    State 12:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {0}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = commit
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {0}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 13:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+  Loop (repeats):
+    State 0:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = down
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+    State 1:
+      forwarded = {}
+      fwdAt = {0 ↦ 0, 1 ↦ 0}
+      halted = false
+      hw = 5
+      inflight = {}
+      log = {0}
+      onDisk = {0, 1, 2, 3, 4, 5, 6}
+      pc = rec1store
+      pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3, 4 ↦ 4, 5 ↦ 5, 6 ↦ 6}
+      pkgHas = {[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0]}
+      queued = {}
+      used = {0, 1, 2, 3, 4, 5, 6}
+info: VeilPilot/ChokepointAriadne.lean:335:0: ❌ Violation: safety_failure (violates: non_omission_variants)
+  State 0 (via init):
+    hw = 0
+    pc = boot
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {}
+    pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {}
+    onDisk = {}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 1 (via purge(g=0)):
+    choices: p = 0
+    hw = 0
+    pc = run
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0}
+    pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {}
+    onDisk = {0}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 2 (via arrive(f=0)):
+    choices: p = 1
+    hw = 0
+    pc = commit
+    halted = false
+    log = {}
+    inflight = {0}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 3 (via commitInc):
+    hw = 1
+    pc = run
+    halted = false
+    log = {0}
+    inflight = {}
+    queued = {0}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 4 (via hostForward(f=0)):
+    hw = 1
+    pc = run
+    halted = false
+    log = {0}
+    inflight = {}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+  State 5 (via crash):
+    hw = 1
+    pc = down
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+  State 6 (via restore(p=0)):
+    hw = 1
+    pc = rec1store
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+  State 7 (via rec1Store(g=0)):
+    choices: p = 2
+    hw = 1
+    pc = rec1inc
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1, 2}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+  State 8 (via rec1Inc):
+    hw = 2
+    pc = rec2store
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1, 2}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+  State 9 (via rec2Store(g=0)):
+    choices: p = 3
+    hw = 2
+    pc = rec2inc
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1, 2, 3}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+  State 10 (via rec2Inc):
+    hw = 3
+    pc = run
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3 ↦ 3}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1, 2, 3}
+    forwarded = {0}
+    fwdAt = {0 ↦ 1, 1 ↦ 0}
+info: VeilPilot/ChokepointAriadne.lean:339:0: ❌ Violation: safety_failure (violates: non_omission_variants)
+  State 0 (via init):
+    hw = 0
+    pc = boot
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {}
+    pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {}
+    onDisk = {}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 1 (via purge(g=0)):
+    choices: p = 0
+    hw = 0
+    pc = run
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0}
+    pkgCtr = {0 ↦ 0, 1 ↦ 0, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {}
+    onDisk = {0}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 2 (via arrive(f=0)):
+    choices: p = 1
+    hw = 0
+    pc = commit
+    halted = false
+    log = {}
+    inflight = {0}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 3 (via crash):
+    hw = 0
+    pc = down
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 4 (via restore(p=0)):
+    hw = 0
+    pc = rec1store
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 0, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 1}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 5 (via rec1Store(g=0)):
+    choices: p = 2
+    hw = 0
+    pc = rec1inc
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 2}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 6 (via rec1Inc):
+    hw = 1
+    pc = run
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 0, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0)}
+    onDisk = {0, 2}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 7 (via arrive(f=1)):
+    choices: p = 3
+    hw = 1
+    pc = commit
+    halted = false
+    log = {}
+    inflight = {1}
+    queued = {}
+    used = {0, 1, 2, 3}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1)}
+    onDisk = {0, 2, 3}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 8 (via crash):
+    hw = 1
+    pc = down
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1)}
+    onDisk = {0, 2, 3}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 9 (via restoreAdv(p=1)):
+    hw = 1
+    pc = rec1store
+    halted = false
+    log = {0}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 0, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1)}
+    onDisk = {0, 2, 3}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 10 (via rec1Store(g=0)):
+    choices: p = 4
+    hw = 1
+    pc = rec1inc
+    halted = false
+    log = {0}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3, 4}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1), (4, 0)}
+    onDisk = {0, 2, 4}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 11 (via rec1Inc):
+    hw = 2
+    pc = run
+    halted = false
+    log = {0}
+    inflight = {}
+    queued = {0}
+    used = {0, 1, 2, 3, 4}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1), (4, 0)}
+    onDisk = {0, 2, 4}
+    forwarded = {}
+    fwdAt = {0 ↦ 0, 1 ↦ 0}
+  State 12 (via hostForward(f=0)):
+    hw = 2
+    pc = run
+    halted = false
+    log = {0}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3, 4}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1), (4, 0)}
+    onDisk = {0, 2, 4}
+    forwarded = {0}
+    fwdAt = {0 ↦ 2, 1 ↦ 0}
+  State 13 (via crash):
+    hw = 2
+    pc = down
+    halted = false
+    log = {}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3, 4}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1), (4, 0)}
+    onDisk = {0, 2, 4}
+    forwarded = {0}
+    fwdAt = {0 ↦ 2, 1 ↦ 0}
+  State 14 (via restoreAdv(p=3)):
+    hw = 2
+    pc = rec1store
+    halted = false
+    log = {1}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3, 4}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 0}
+    pkgHas = {(1, 0), (3, 1), (4, 0)}
+    onDisk = {0, 2, 4}
+    forwarded = {0}
+    fwdAt = {0 ↦ 2, 1 ↦ 0}
+  State 15 (via rec1Store(g=0)):
+    choices: p = 5
+    hw = 2
+    pc = rec1inc
+    halted = false
+    log = {1}
+    inflight = {}
+    queued = {}
+    used = {0, 1, 2, 3, 4, 5}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 3}
+    pkgHas = {(1, 0), (3, 1), (4, 0), (5, 1)}
+    onDisk = {0, 2, 4, 5}
+    forwarded = {0}
+    fwdAt = {0 ↦ 2, 1 ↦ 0}
+  State 16 (via rec1Inc):
+    hw = 3
+    pc = run
+    halted = false
+    log = {1}
+    inflight = {}
+    queued = {1}
+    used = {0, 1, 2, 3, 4, 5}
+    pkgCtr = {0 ↦ 0, 1 ↦ 1, 2 ↦ 1, 3 ↦ 2, 4 ↦ 2, 5 ↦ 3}
+    pkgHas = {(1, 0), (3, 1), (4, 0), (5, 1)}
+    onDisk = {0, 2, 4, 5}
+    forwarded = {0}
+    fwdAt = {0 ↦ 2, 1 ↦ 0}
+Build completed successfully (1276 jobs).
