@@ -13,3 +13,9 @@ package «veil-pilot» where
 @[default_target]
 lean_lib VeilPilot where
   globs := #[.submodules `VeilPilot]
+
+-- The device of degg-research's chokepoint experiment, compiled from its source tree (no copy), for
+-- the refinement theorem `VeilPilot/AriadneRefines.lean`.
+lean_lib AriadneStep where
+  srcDir := "/Users/ember/dev/degg-research/experiments/chokepoint-step"
+  roots := #[`AriadneStep]
